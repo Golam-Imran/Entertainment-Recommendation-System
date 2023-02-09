@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 selected = option_menu(
     menu_title=None,  # required
     options=["Movie", "Books", "Song"],  # required
-    icons=["house", "film", "book", "file-earmark-music"],  # optional
+    icons=["film", "book", "file-earmark-music"],  # optional
     menu_icon="cast",  # optional
     default_index=0,  # optional
     orientation="horizontal",
